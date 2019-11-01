@@ -1,6 +1,6 @@
 FROM golang:1.12.4-alpine as builder
 
-ARG VERSION=add-go-mod
+ARG VERSION=master
 
 LABEL maintainer="wilmardo" \
   description="xteve from scratch"
@@ -11,7 +11,7 @@ RUN addgroup -S -g 1000 xteve 2>/dev/null && \
 RUN apk --no-cache add \
   git
 
-RUN git clone --depth 1 --single-branch --branch ${VERSION} https://github.com/wilmardo/xTeVe.git /xteve
+RUN git clone --depth 1 --single-branch --branch add-go-mod https://github.com/wilmardo/xTeVe.git /xteve
 
 WORKDIR /xteve
 RUN go build
