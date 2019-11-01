@@ -9,7 +9,8 @@ RUN addgroup -S -g 1000 xteve 2>/dev/null && \
   adduser -S -u 1000 -D -H -h /dev/shm -s /sbin/nologin -G xteve -g xteve xteve 2>/dev/null
 
 RUN apk --no-cache add \
-  git
+  git \
+  build-base
 
 RUN git clone --depth 1 --single-branch --branch add-go-mod https://github.com/wilmardo/xTeVe.git /xteve
 
