@@ -1,0 +1,11 @@
+---
+  version: "3"
+  services:
+    xteve:
+      container_name: xteve
+      image: xteve-test
+      volumes:
+        - ./config:/config
+      ports:
+        - "34400:34400"
+      restart: always
