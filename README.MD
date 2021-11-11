@@ -1,8 +1,6 @@
 # xTeVe
-[![Build Status](https://cloud.drone.io/api/badges/LANsible/docker-xteve/status.svg)](https://cloud.drone.io/LANsible/docker-xteve)
+[![Build Status](https://gitlab.com/lansible1/docker-xteve/badges/master/pipeline.svg)](https://gitlab.com/lansible1/docker-xteve/pipelines)
 [![Docker Pulls](https://img.shields.io/docker/pulls/lansible/xteve.svg)](https://hub.docker.com/r/lansible/xteve)
-[![Docker Version](https://images.microbadger.com/badges/version/lansible/xteve:latest.svg)](https://microbadger.com/images/lansible/xteve:latest)
-[![Docker Size/Layers](https://images.microbadger.com/badges/image/lansible/xteve:latest.svg)](https://microbadger.com/images/lansible/xteve:latest)
 
 ## Why not use the official container?
 
